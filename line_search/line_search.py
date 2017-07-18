@@ -54,5 +54,5 @@ if __name__ == "__main__":
     plot(min_x1=-75,max_x1=75,min_x2=-75,max_x2=75,x1_start=-1,x2_start=20,t=100,step_num=1000,plot_no=1,is_line_search=False)
     plot(min_x1=-20,max_x1=20,min_x2=-20,max_x2=20,x1_start=-1,x2_start=20,t=0.01,step_num=1000,plot_no=2,is_line_search=False)
     plot(min_x1=-20,max_x1=20,min_x2=-20,max_x2=20,x1_start=-1,x2_start=20,t=1,step_num=22,plot_no=3,is_line_search=True,alpha=0.5,beta=0.8)
-    plt.savefig('books_read.png')
+    plt.savefig('line_search_comparison.png')
     plt.show()
